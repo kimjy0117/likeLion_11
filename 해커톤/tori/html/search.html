@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>토리</title>
+    <link rel="stylesheet" href="../css/mainside.css" />
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/search.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- searchIcon -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <!-- closeIcon -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <!-- logout -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="headerContainer">
+        <a href="./index.html">
+          <div class="logoContainer">
+            <img src="../img/toriLogo25.svg" alt="서비스 로고" />
+          </div>
+        </a>
+        <div class="upperMenu" style="margin-left: 60px">
+          <!-- <img id="searchIcon" src="../img/search.png" alt="검색 아이콘" /> -->
+          <span
+            class="material-symbols-outlined"
+            style="font-size: 33px"
+            id="searchIcon"
+          >
+            search
+          </span>
+          <span id="login"><a href="./Login.html">로그인</a></span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <form id="searchForm">
+        <div inputContainer>
+          <span
+            class="material-symbols-outlined"
+            style="font-size: 33px"
+            id="inputIcon"
+          >
+            search
+          </span>
+          <input
+            type="text"
+            placeholder="검색어를 입력하세요"
+            id="search"
+            onkeyup="if(window.event.keyCode==13){
+            (enterKey())
+          }"
+          />
+        </div>
+      </form>
+      <!-- <div class="alignMenu">
+        <select name="alignSet" id="align-set">
+          <option value="Likes" id="pBtn">인기순</option>
+          <option value="Latest" id="rBtn">최신순</option>
+        </select> 
+      </div>
+      <section></section> -->
+    </main>
+
+    <!-- 게시글 -->
+    <div class="container"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../js/search.js"></script>
+  </body>
+</html>

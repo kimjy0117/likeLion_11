@@ -1,0 +1,54 @@
+@font-face { 
+    font-family: "HANAMDAUM"; 
+    src: url("../font/HANAMDAUM.ttf"); 
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    background: white;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    height: 60px;
+    z-index: 999;
+}
+
+.mainlogo {
+    position: relative;
+    bottom: 20px;
+    width: 100px;
+    height: 40px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+    gap: 100px;
+    
+}
+
+.list li{
+    padding-top: 10px;
+}
+
+.list a {
+    color: black;
+    text-decoration: none;
+    font-family: 'HANAMDAUM';
+    margin-bottom: 15px ;
+    width: 100px;
+    height: 30px;
+}
+
+.list a:hover{
+    transform: scale(1.4);
+}
+
+
+.list a.unactive {
+    color: grey;
+}
+
+

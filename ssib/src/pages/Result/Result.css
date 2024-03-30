@@ -1,0 +1,554 @@
+@import url("../../assets/fonts/SUIT.css");
+
+html {
+  /*전체 영역*/
+  background-color: white;
+}
+
+body{
+  margin: 0 auto;
+}
+
+.Result {
+  background-image: url("../../assets/result/result_background1.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  width: 1100px;
+  height: 2200px;
+  text-align: center;
+  font-family: "SUIT";
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/*타이틀*/
+h1 {
+  font-size: 62px;
+  font-weight: 800;
+  font-family: "SUIT", sans-serif;
+  color: white;
+  padding-top: 19%;
+  margin-bottom: 10%;
+  margin-top: 0px;
+}
+
+/*메인 메뉴 스타일*/
+.mainMenu {
+  width: 100%;
+  height: 37.1%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 9%;
+}
+
+.resultFoodBox {
+  width: 100%;
+  height: 70%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 5%;
+  padding-top: 0;
+}
+
+.resultFood {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 0 auto;
+}
+
+.foodNameBox {
+  text-align: center;
+}
+
+.foodName {
+  font-size: 62px;
+  font-weight: bold;
+  font-family: "SUIT";
+  color: #4f2789;
+}
+
+/*하단 메뉴 스타일*/
+.menu {
+  display: flex;
+  flex-direction: row;
+  height: 18.817%;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 13%;
+}
+
+/* 하단 왼쪽 박스 */
+.sideMenu {
+  width: 43%;
+  height: 100%;
+  text-align: center;
+  margin-left: 5%;
+}
+
+/* 하단 오른쪽 박스 */
+.similarMenu {
+  width: 43%;
+  height: 100%;
+  text-align: center;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 상단 글씨 */
+h2 {
+  font-family: "SUIT", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  color: #4f2789;
+  margin-bottom: 3%;
+}
+
+/* 하단 이미지*/
+.sideFoodBox{
+  width: auto;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.sideMenuImg {
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* 하단 글씨*/
+.menuName1 {
+  font-family: "SUIT", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  color: #4f2789;
+  margin-top: 1%;
+}
+
+.menuName2 {
+  font-family: "SUIT", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #4f2789;
+}
+
+.reTest {
+  width: 720px;
+  height: 168px;
+  margin: 0 auto;
+}
+
+.linkStyle {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+@media screen and (max-device-width: 365px) {
+  .Result {
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+  }
+  h1 {
+    margin-bottom: 7%;
+    font-size: 1.5em;
+  }
+  .resultFoodBox{
+    height: 60%;
+  }
+  .foodName{
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .menu{
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .sideMenu{
+    padding-top: 1%;
+  }
+  .similarMenu{
+    padding-top: 1%;
+  }
+  .sideFoodBox{
+    height: 60%;
+  }
+  .mainMenu {
+    margin-bottom: 0;
+  }
+  .menuName1 {
+    font-size: 1.3em;
+  }
+  .menuName2 {
+    font-size: 1.1em;
+  }
+  .reTest {
+    width: 50%;
+    height: 7%;
+    padding-top: 0;    
+  }
+  h3 {
+    font-size: 1.3em;
+    margin: 0;
+  }
+}
+
+@media screen and (min-device-width: 366px) and (max-device-width: 390px) {
+  .Result {
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+  }
+  h1 {
+    margin-bottom: 7%;
+    font-size: 1.5em;
+  }
+  .resultFoodBox{
+    height: 60%;
+  }
+  .foodName{
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1em;
+    margin-top: 1%;
+    margin-bottom: 3%;
+  }
+  .menu{
+    margin-top: 8%;
+    margin-bottom: 9%;
+  }
+  .sideMenu{
+    padding-top: 1%;
+  }
+  .similarMenu{
+    padding-top: 1%;
+  }
+  .sideFoodBox{
+    height: 60%;
+    margin-top: 1%;
+  }
+  .mainMenu {
+    margin-top: 12%;
+  }
+  .menuName1 {
+    font-size: 1.3em;
+  }
+  .menuName2 {
+    font-size: 1.1em;
+  }
+  .reTest {
+    width: 50%;
+    height: 7%;
+    padding-top: 0;    
+  }
+  h3 {
+    font-size: 1.3em;
+    margin: 0;
+  }
+}
+
+@media screen and (min-device-width: 366px) and (max-device-width: 400px) and (min-device-height: 821px) and (max-device-height: 850px) {
+  .Result {
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+  }
+  h1 {
+    margin-bottom: 7%;
+    font-size: 1.5em;
+  }
+  .resultFoodBox{
+    height: 60%;
+  }
+  .foodName{
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1em;
+    margin-top: 1%;
+    margin-bottom: 3%;
+  }
+  .menu{
+    margin-top: 3%;
+    margin-bottom: 11%;
+  }
+  .sideMenu{
+    padding-top: 1%;
+  }
+  .similarMenu{
+    padding-top: 1%;
+  }
+  .sideFoodBox{
+    height: 60%;
+    margin-top: 1%;
+  }
+  .mainMenu {
+    margin-top: 17%;
+    margin-bottom: 1%;
+  }
+  .menuName1 {
+    font-size: 1.3em;
+    margin-top: 10%;
+  }
+  .menuName2 {
+    font-size: 1.1em;
+  }
+  .reTest {
+    width: 50%;
+    height: 7%;
+    padding-top: 0;    
+  }
+  h3 {
+    font-size: 1.3em;
+    margin: 0;
+  }
+}
+
+@media screen and (min-device-width: 391px) and (max-device-width: 412px) and (min-device-height: 656px) and (max-device-height: 932px) {
+  .Result {
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+  }
+  h1 {
+    margin-bottom: 15%;
+    font-size: 1.7em;
+  }
+  .resultFoodBox{
+    height: 60%;
+  }
+  .foodName{
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1em;
+    margin-top: 4%;
+  }
+  .menu{
+    margin-top: 3%;
+    margin-bottom: 12%;
+  }
+  .sideMenu{
+    padding-top: 1%;
+  }
+  .similarMenu{
+    padding-top: 1%;
+  }
+  .sideFoodBox{
+    height: 55%;
+    margin-top: 4%
+  }
+  .mainMenu {
+    margin-bottom: 0;
+  }
+  .menuName1 {
+    font-size: 1.6em;
+    margin-top: 5%;
+  }
+  .menuName2 {
+    font-size: 1.3em;
+  }
+  .reTest {
+    width: 50%;
+    height: 7%;
+    padding-top: 0;    
+  }
+  h3 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+}
+
+@media screen and (min-device-width: 413px) and (max-device-width: 767px) and (min-device-height: 656px) and (max-device-height: 932px) {
+  .Result {
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+  }
+  h1 {
+    margin-bottom: 7%;
+    font-size: 1.7em;
+  }
+  .resultFoodBox{
+    height: 60%;
+  }
+  .foodName{
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1em;
+    margin-top: 4%;
+  }
+  .menu{
+    margin-top: 6%;
+    margin-bottom: 10%;
+  }
+  .sideMenu{
+    padding-top: 1%;
+  }
+  .similarMenu{
+    padding-top: 1%;
+  }
+  .sideFoodBox{
+    height: 55%;
+    margin-top: 3%;
+  }
+  .mainMenu {
+    margin-bottom: 12%;
+  }
+  .menuName1 {
+    font-size: 1.6em;
+  }
+  .menuName2 {
+    font-size: 1.3em;
+  }
+  .reTest {
+    width: 50%;
+    height: 7%;
+    padding-top: 0;    
+  }
+  h3 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+}
+
+@media screen and (min-device-height: 653px) and (max-device-height: 655px) {
+  .Result {
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+  }
+  h1 {
+    margin-bottom: 7%;
+    font-size: 1.1em;
+  }
+  .resultFoodBox{
+    height: 50%;
+  }
+  .foodName{
+    font-size: 1.3em;
+  }
+  h2 {
+    font-size: 0.9em;
+    margin-top: 0;
+  }
+  .menu{
+    margin-top: 7%;
+    margin-bottom: 2%;
+  }
+  .sideFoodBox{
+    height: 48%;
+  }
+  .sideMenu{
+    padding-top: 1%;
+  }
+  .similarMenu{
+    padding-top: 1%;
+  }
+  .mainMenu {
+    height: 35vh;
+    margin-bottom: 0;
+  }
+  .menuName1 {
+    font-size: 1.1em;
+  }
+  .menuName2 {
+    font-size: 0.9em;
+  }
+  .reTest {
+    width: 50%;
+    height: 7%;
+    padding-top: 0;    
+  }
+  
+  h3 {
+    font-size: 1em;
+    margin: 0;
+  }
+}
+
+/* @media screen and (min-device-height: 950px) and (max-device-height: 1090px) {
+  .Result {
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+  }
+  h1 {
+    margin-bottom: 7%;
+    font-size: 1.5em;
+  }
+  .resultFoodBox{
+    height: 50%;
+  }
+  .foodName{
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.3em;
+    margin-top: 0;
+  }
+  .menu{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .sideFoodBox{
+    height: 50%;
+  }
+  .sideMenu{
+    height: 90%;
+    padding-top: 1%;
+  }
+  .similarMenu{
+    height: 90%;
+    padding-top: 1%;
+  }
+  .mainMenu {
+    height: 33vh;
+    margin-bottom: 0;
+  }
+  .menuName1 {
+    font-size: 1.5em;
+  }
+  .menuName2 {
+    font-size: 1.2em;
+  }
+  .reTest {
+    width: 50%;
+    height: 7%;
+    padding-top: 0;    
+  }
+  
+  h3 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+} */

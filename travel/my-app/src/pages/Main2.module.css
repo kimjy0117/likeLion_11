@@ -1,0 +1,32 @@
+@font-face { 
+    font-family: "HANAMDAUM"; 
+    src: url("../font/HANAMDAUM.ttf"); 
+}
+
+.main2 {
+    margin-top: 10%;
+}
+
+.picintro {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: whitesmoke;  
+    font-family: 'HANAMDAUM';
+}
+
+.container {
+    width: 1500px;
+    display: flex;
+    margin:  30px auto;
+    gap: 100px;
+}
+
+.tag {
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.main3 {
+    margin-top: 10%;
+}

@@ -1,0 +1,53 @@
+/* 더보기*/
+
+.detail-page {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle-text {
+  color: #333;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.toggle-text:hover {
+  color: #666;
+}
+
+.text-container {
+  width: 500px;
+  height: 500px;
+}
+
+li {
+  list-style-type: none;
+}
+  
+.h1 {
+  margin-bottom: 0px;
+}
+
+.detail-page {
+  display: flex;
+  align-items: center;
+}
+  
+.detail-page .item {
+  margin-top: 40px;
+  padding-left: 20px;
+}
+
+.item li {
+  display: flex;
+  align-items: flex-start;
+}
+
+.detail-page .item li svg {
+  margin-top: 14px;
+  margin-right: 10px;
+}
+  
+  
